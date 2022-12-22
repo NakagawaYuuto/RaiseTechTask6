@@ -10,4 +10,8 @@ public class HelloWordController {
     public String hello(){
         return "hello nakagawa";
     }
+    @GetMapping("/user")
+    public String name(){
+        return "Nakagawa Yuuto";
+    }
 }
