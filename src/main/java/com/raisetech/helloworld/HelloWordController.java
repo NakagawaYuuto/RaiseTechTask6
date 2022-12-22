@@ -14,4 +14,14 @@ public class HelloWordController {
     public String name(){
         return "Nakagawa Yuuto";
     }
+
+    @GetMapping("/oosaka")
+    public String name1(){
+        return "oosaka naomi";
+    }
+
+    @GetMapping("/tanaka")
+    public String name2(){
+        return "tanaka";
+    }
 }
